@@ -1,0 +1,7 @@
+<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+	<Toolbar>
+		<ToolbarSpacer/>
+		<Button icon="sap-icon://reset" text="Reset" id="sub" type="Reject"/>
+		<Button icon="sap-icon://create" text="Create Business Partner" id="home1" type="Accept"/>
+	</Toolbar>
+</core:FragmentDefinition>

@@ -1,0 +1,49 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<Table id="idPaymentTransaction" items="{oTableModel>/ProductCollection}">
+	
+		<columns>
+			<Column>
+				<Text text="{i18n>Pay_Id}"/>
+			</Column>
+			<Column>
+				<Text text="{i18n>Pay_City}"/>
+			</Column>
+			<Column>
+				<Text text="{i18n>Pay_Bank_key}"/>
+			</Column>
+			<Column>
+				<Text text="{i18n>Pay_Bank_Acct}"/>
+			</Column>
+			<Column minScreenWidth="Desktop" demandPopin="true" hAlign="Center">
+				<Text text="{i18n>Pay_Control_Key}"/>
+			</Column>
+			<Column>
+				<Text text="{i18n>Pay_IBAN}"/>
+			</Column>
+			<Column>
+				<Text text="{i18n>Pay_Reference_Document}"/>
+			</Column>
+			<Column>
+				<Text text="{i18n>Action}"/>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells >
+					<Text text="{oTableModel>ID}"/>
+					<Text text="{oTableModel>Name}"/>
+					<Text text="{oTableModel>Price}"/>
+					<Text text=""/>
+					<Text text=""/>
+					<Text text="{oTableModel>Description} "/>
+					<Text text="{oTableModel}"/>
+					<Text text="{oTableModel}"/>
+					<HBox>
+						<Button text="{oTableModel>Btn1}" press="onEdit" class="sapUiSmallMarginEnd"></Button>
+						<Button text="{oTableModel>Btn2}" press="onDelete"></Button>
+					</HBox>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</core:FragmentDefinition>

@@ -1,0 +1,26 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<l:VerticalLayout class="sapUiContentPadding sapUiLargeMarginBegin" width="40%">
+		<l:content>
+			<Label text="{i18n>Comm_Telephone}" labelFor="input-a"/>
+			<Input id="id" required="true"/>
+			<Label text="{i18n>Comm_FAX}" labelFor="input-b"/>
+			<Input id="id2"/>
+			<Label text="{i18n>Comm_Std_Comm_Method}" labelFor="input-c"/>
+			<Input id="id3"/>
+		</l:content>
+	</l:VerticalLayout>
+	<l:VerticalLayout class="sapUiContentPadding sapUiLargeMarginBegin" width="40%">
+		<l:content>
+			<Label text="{i18n>Comm_Mobile}" labelFor="input-a"/>
+			<Input id="input-a" required="true"/>
+			<Label text="{i18n>Comm_Email}" labelFor="input-b"/>
+			<Input id="input-b"/>
+			<Label text="{i18n>Comm_Comments}" labelFor="input-c"/>
+			<Input id="input-c"/>
+		</l:content>
+	</l:VerticalLayout>
+	<l:VerticalLayout class="sapUiContentPadding sapUiLargeMarginBegin" width="85%">
+		<Label text="{i18n>Comm_External_Address_No.}" labelFor="input-a"/>
+		<Input id="id4"/>
+	</l:VerticalLayout>
+</core:FragmentDefinition>

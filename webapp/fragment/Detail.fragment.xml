@@ -1,0 +1,30 @@
+<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:core="sap.ui.core" displayBlock="true"
+	xmlns:custom="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+	<Page id="detail" title="Address Details" titleAlignment="Center" backgroundDesign="Solid" class="sapUiStdPage">
+		<headerContent>
+			<Button icon="sap-icon://add" type="Emphasized" press="onAddAddress"></Button>
+		</headerContent>
+		<content>
+			<core:Fragment fragmentName="inc.trng.od.ZMASTER_DETAIL.fragment.details.Address" type="XML"></core:Fragment>
+		</content>
+	</Page>
+	<Page id="detailDetail" title="Communication Details" titleAlignment="Center" class="sapUiStdPage" backgroundDesign="Solid">
+		
+		<content>
+			<core:Fragment fragmentName="inc.trng.od.ZMASTER_DETAIL.fragment.details.Communication" type="XML"></core:Fragment>
+		</content>
+	</Page>
+	<Page id="detail2" title="Identifications" titleAlignment="Center" backgroundDesign="Solid" class="sapUiStdPage">
+		<content>
+			<core:Fragment fragmentName="inc.trng.od.ZMASTER_DETAIL.fragment.details.Identifications" type="XML"></core:Fragment>
+		</content>
+	</Page>
+	<Page id="detail3" title="Payment Details" titleAlignment="Center" backgroundDesign="Solid" class="sapUiStdPage">
+		<headerContent>
+			<Button icon="sap-icon://add" type="Emphasized" press="onAddPayment"></Button>
+		</headerContent>
+		<content>
+			<core:Fragment fragmentName="inc.trng.od.ZMASTER_DETAIL.fragment.details.PaymentTransactions" type="XML"></core:Fragment>
+		</content>
+	</Page>
+</core:FragmentDefinition>

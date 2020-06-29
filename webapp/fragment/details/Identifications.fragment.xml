@@ -1,0 +1,47 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<l:VerticalLayout class="sapUiContentPadding sapUiLargeMarginBegin" width="40%">
+		<l:content>
+			<Label text="{i18n>Marital_Status}" labelFor="input-a"/>
+			<!--<Input id="marital" required="true"/>-->
+			<ComboBox width="100%" items="{}" selectedKey="{}" selectionChange="onPress">
+				<core:Item key="{}" text="{}"/>
+			</ComboBox>
+			<Label text="{i18n>Occupation}" labelFor="input-b"/>
+			<!--<Input id="occupation"/>-->
+			<ComboBox width="100%" items="{}" selectedKey="{}" selectionChange="onPress">
+				<core:Item key="{}" text="{}"/>
+			</ComboBox>
+			<Label text="{i18n>User_Name}" labelFor="input-c"/>
+			<Input id="userName"/>
+			<Label text="{i18n>Country_of_Origin}" labelFor="input-a"/>
+			<!--<Input id="country"/>-->
+			<ComboBox width="100%" items="{}" selectedKey="{}" selectionChange="onPress">
+				<core:Item key="{}" text="{}"/>
+			</ComboBox>
+		</l:content>
+	</l:VerticalLayout>
+	<l:VerticalLayout class="sapUiContentPadding sapUiLargeMarginBegin" width="40%">
+		<l:content>
+			<Label text="{i18n>Nationality_Status}" labelFor="input-a"/>
+			<!--<Input id="nationality" required="true"/>-->
+			<ComboBox width="100%" items="{}" selectedKey="{}" selectionChange="onPress">
+				<core:Item key="{}" text="{}"/>
+			</ComboBox>
+			<Label text="{i18n>Birth_Place}" labelFor="input-b"/>
+			<Input id="birthPlace"/>
+			<Label text="{i18n>Employer}" labelFor="input-c"/>
+			<Input id="employer"/>
+			<Label text="{i18n>Citizenship}" labelFor="input-c"/>
+			<!--<Input id="citizenship"/>-->
+			<ComboBox width="100%" items="{}" selectedKey="{}" selectionChange="onPress">
+				<core:Item key="{}" text="{}"/>
+			</ComboBox>
+		</l:content>
+	</l:VerticalLayout>
+	<l:VerticalLayout class="sapUiContentPadding sapUiLargeMarginBegin" width="85%">
+		<!--	<l:content>-->
+		<Label text="{i18n>Personnel_No.}" labelFor="input-a"/>
+		<Input id="personnelNo"/>
+		<!--	</l:content>-->
+	</l:VerticalLayout>
+</core:FragmentDefinition>
