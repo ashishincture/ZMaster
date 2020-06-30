@@ -16,13 +16,13 @@
 					<content>
 						<l:VerticalLayout width="100%" >
 							<!--<l:content>-->
-							 <!--initi-->
+							 <!--initi -->
 							<HBox>
 								<VBox class="firstVbox">
 									<Label text="First Name"/>
 									<Input type="Text" width="120%"></Input>
 									<Label class=" sapUiSmallMarginTop" text="Search term 1"/>
-									<Input type="Text" width="120%"></Input>
+									<Input type="Text" width="121%"></Input>
 								</VBox>
 								<VBox class="secondVbox">
 									<Label text="Last Name"/>
