@@ -22,7 +22,7 @@
 									<Label text="First Name"/>
 									<Input type="Text" width="120%"></Input>
 									<Label class=" sapUiSmallMarginTop" text="Search term 1"/>
-									<Input type="Text" width="121%"></Input>
+									<Input type="Text" width="120%"></Input>
 								</VBox>
 								<VBox class="secondVbox">
 									<Label text="Last Name"/>
