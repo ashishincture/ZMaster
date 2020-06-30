@@ -16,7 +16,7 @@
 					<content>
 						<l:VerticalLayout width="100%" >
 							<!--<l:content>-->
-							 <!--initial1-->
+							 <!--initia-->
 							<HBox>
 								<VBox class="firstVbox">
 									<Label text="First Name"/>
