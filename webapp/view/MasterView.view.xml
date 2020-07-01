@@ -18,7 +18,7 @@
 							<!--<l:content>-->
 							 <!--initi1 -->
 							<HBox>
-								<VBox class="firstVbox">
+								<VBox class="firstVbox" id="rr">
 									<Label text="First Name"/>
 									<Input type="Text" width="120%"></Input>
 									<Label class=" sapUiSmallMarginTop" text="Search term 1"/>
